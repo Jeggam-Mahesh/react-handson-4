@@ -1,0 +1,49 @@
+
+body{
+    background-image: linear-gradient(rgb(42, 172, 172),rgb(229, 180, 205),rgb(233, 238, 245));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#parent{
+    padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color:blue;
+   color: white;
+  }
+  
+  a{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+  }
+  table{
+    padding: 5px;
+    width: 100vw;
+    font-size: 20px;
+    border-collapse: collapse; 
+    background-color:rgba(255, 255, 255, 0.929);
+  }
+  
+  td,th{
+    padding: 5px;
+  }
+  #firstLine{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  #add{
+    margin-right: 90px;
+    width:200px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+  }
+  
+ 
+  
