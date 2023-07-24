@@ -6,9 +6,9 @@ const LinkComponent=()=>{
     return (
         <>
        <div id='parent'>
-       <Link to ='/'>Home</Link>
-        <Link to ='/student'>Student</Link>
-        <Link to ='/contact'>Contact</Link>
+       <Link to ='/' className="hmlink">Home</Link>
+        <Link to ='/student' className="hmlink">Student</Link>
+        <Link to ='/contact' className="hmlink">Contact</Link>
        </div>
        
         </>

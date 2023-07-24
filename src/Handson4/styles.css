@@ -14,10 +14,10 @@ body{
    color: white;
   }
   
-  a{
+  .hmlink{
     font-size: 50px;
     font-weight: bolder;
-    color: white;
+    color:white;
     text-decoration: none;
   }
   table{
@@ -28,7 +28,7 @@ body{
     background-color:rgba(255, 255, 255, 0.929);
   }
   
-  td,th{
+  td th{
     padding: 5px;
   }
   #firstLine{

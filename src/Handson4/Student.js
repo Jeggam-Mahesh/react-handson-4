@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Student=()=>{
 const [data]=useState([
 
@@ -93,7 +94,7 @@ const [data]=useState([
                 <td>{item.Age}</td>
                 <td>{item.Course}</td>
                 <td>{item.Batch}</td>
-                <td style={{color:'blue',textDecoration:'underline'}}>{item.Change}</td>
+                <td ><Link to='#'>{item.Change}</Link></td>
                 
              </tr>   
             )
